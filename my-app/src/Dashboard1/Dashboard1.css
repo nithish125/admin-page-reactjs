@@ -1,7 +1,7 @@
 .page1
 {
     display: flex;
-    border: 1px solid;
+    border: 20px solid gray;
     background-color: #d8dce3;
     
 
@@ -17,8 +17,8 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 44px;
-    width: 1114px;
-    background-color: #ffffff;
+    /* width: 1100px; */
+    background-color: aliceblue;
 }
 .bar p{
     line-height: 23px;
@@ -50,14 +50,14 @@ justify-content: end;
 }
 .batches3{
     width: 982px;
-    
     height: 602px;
+    background-color: black;
    
     
 }
 
 .logo{
-    background-color: grey;
+    background-color:black;
     width: 232px;
 }
 .icofont-gear:before {

@@ -1,0 +1,28 @@
+.row1{
+    background-color: black;
+    border: 20px solid rgb(34, 33, 33);
+    padding: 0px;
+    margin: 0px;
+}
+.search1{
+    background-color: aliceblue;
+    padding: 10px;
+    /* color: aliceblue; */
+}
+.iconic{
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    /* box-shadow: 10px 10px rgb(52, 54, 54); */
+    /* height: 150px; */
+    margin: 10px;
+    color:aliceblue;
+    border-radius: 20px;
+    padding: 30px 10px;
+    line-height: 20px;
+    /* background-color: rgb(37, 36, 36); */
+    background: linear-gradient(217deg, rgba(83, 63, 63, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(79, 87, 79, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(47, 47, 58, 0.8), rgba(0,0,255,0) 70.71%);
+}

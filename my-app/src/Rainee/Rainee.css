@@ -1,0 +1,59 @@
+.search-text-input{
+   
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    
+    
+    margin:.8em 0em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+    width:70%; 
+    border-radius: 20px;
+}
+.gilink{
+    height: 300px;
+    /* overflow: scroll; */
+    border: 1px solid;
+}
+.imgs1{
+    width: 100px ;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+}
+.stuens{
+    margin: 20px 5px;
+    color: aliceblue;
+    
+}
+.nav-img{
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 50%
+}
+.anays1{
+    width: 150px;
+    height: 150px;
+    
+}
+.spin {
+    border: 16px solid #0042A4;
+
+    border-radius: 50%;
+    border-top: 16px solid #3775CF;
+    border-right: 16px solid #619BEE;
+    border-bottom: 16px solid #96BFF9;
+    border-left: 16px solid #C9E0FF;
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 900;
+    text-align: center;
+
+    
+  }
