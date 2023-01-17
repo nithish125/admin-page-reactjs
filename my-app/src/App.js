@@ -7,6 +7,7 @@ import Login from './login/Login';
 import Dashboar3 from './Dashboard3/Dashboard3';
 import Rainee from './Rainee/Rainee';
 import Check from './chec/Check';
+import Char from './chars/Char';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
      {/* <Dashboar /> */}
      {/* <Login /> */}
      {/* <Dashboar3 /> */}
-     <Rainee />
+     {/* <Rainee /> */}
+     <Char />
      {/* <Check /> */}
   
     </div>
