@@ -1,0 +1,10 @@
+.userouer{
+    background-image: linear-gradient(to bottom right, black, gray);
+    height: 570px;
+    box-shadow: 7px 7px rgb(112, 104, 121);
+    border-radius: 20px;
+}
+.userinner{
+    line-height: 60px;
+    color: aliceblue;
+}

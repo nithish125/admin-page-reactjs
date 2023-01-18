@@ -8,17 +8,19 @@ import Dashboar3 from './Dashboard3/Dashboard3';
 import Rainee from './Rainee/Rainee';
 import Check from './chec/Check';
 import Char from './chars/Char';
+import Heading from './Rainee/Heading';
 
 function App() {
   return (
-    <div >
+    <div className="container" >
      {/* <Dashboard1 /> */}
      {/* <Form /> */}
      {/* <Dashboar /> */}
      {/* <Login /> */}
      {/* <Dashboar3 /> */}
-     {/* <Rainee /> */}
-     <Char />
+     <Rainee />
+     {/* <Heading /> */}
+     {/* <Char /> */}
      {/* <Check /> */}
   
     </div>
