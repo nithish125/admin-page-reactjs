@@ -5,9 +5,9 @@ import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import image1 from "./Ajith_Arrambam_Screengrab_1122021_1200.jpg"
 function Heading() {
 return(<div>
-    <div className="heading row">
+    <div className="heading row bg-dark">
             <div className="col-2  ogonav">
-                {/* <img src={image}></img> */}
+                <img src={image}></img>
           
             </div>
             <div className="col-7   text-center"><input type='text' placeholder='Search...' className='search-text-input' />

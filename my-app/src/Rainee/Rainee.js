@@ -19,7 +19,7 @@ function Rainee() {
         doj: "07/05/2022",
         locations: "sankarankovil",
         branch: "chennai",
-        proect: [{ tite: "", lins: "", topic: "" }, { tite: "", lins: "", topic: "" }, { tite: "", lins: "", topic: "" }, { tite: "", lins: "", topic: "" }, { tite: "", lins: "", topic: "" }],
+        proect: [{ tite: "hohuuh", lins: "yhyhyhyyyhyh", topic: "1" }, { tite: "gbgbgbgg", lins: "gg", topic: "2" }, { tite: "huhuh", lins: "hyhy", topic: "1" }, { tite: "hyhyh", lins: "yhyh", topic: "2" }, { tite: "1", lins: "hyhyy", topic: "yhyhyhy" }],
         wpm: [{ days: "", speed: 23 }, { days: "", speed: 23 }, { days: "", speed: 23 }, { days: "", speed: 23 }, { days: "", speed: 23 }, { days: "", speed: 23 }, { days: "", speed: 23 }],
         apptitude: [2, 7, 8, 5, 9, 5, 7],
         gramers: [4, 8, 9, 6, 5],
@@ -90,7 +90,7 @@ function Rainee() {
             <div className="col-2  text-center"><User /></div>
             <div className="col-10 bg-secondary">
                 <div className="innerdash row">
-                    {/* <div className="col-8 bg-danger ">
+                    <div className="col-8 bg-dark ">
                         <Char />
                         <Course />
                         <div className="row">
@@ -139,20 +139,27 @@ function Rainee() {
                             words per minie
                         </div>
                         <div className="row">
-                            <div className="col-6 p-5 bg-danger">gilink
+                            <div className="col-6 p-5 bg-dark">gilink
                                 <div className="gilink">
+                                    {
+                                    avin[0].proect.map((links)=>(
                                     <div>
+                                        <p>{links.tite}</p>
+                                        <a>{links.lins}</a>
+                                    </div>))
+                                    }
+                                    {/* <div>
                                         <p>opic</p>
                                         <a>link</a>
                                     </div>
                                     <div>
                                         <p>opic</p>
                                         <a>link</a>
-                                    </div>
+                                    </div> */}
 
                                 </div>
                             </div>
-                            <div className="col-6 p-5 bg-warning">
+                            <div className="col-6 p-5 bg-secodary">
                                 <div style={{ width: '100%', height: 300 }}>
                                     <ResponsiveContainer>
                                         <PieChart>
@@ -187,8 +194,8 @@ function Rainee() {
                                 <div className='col-3 anays'>
                                     <div className='anays1'>
                                         <CircularProgressbar
-                                            value={87}
-                                            text={`${87}%`}
+                                            value={70}
+                                            text={`${70}%`}
                                             styles={buildStyles({
                                                 rotation: 0.25,
                                                 strokeLinecap: 'butt',
@@ -205,8 +212,8 @@ function Rainee() {
                                 <div className='col-3 anays'>
                                     <div className='anays1'>
                                         <CircularProgressbar
-                                            value={87}
-                                            text={`${87}%`}
+                                            value={78}
+                                            text={`${78}%`}
                                             styles={buildStyles({
                                                 rotation: 0.25,
                                                 strokeLinecap: 'butt',
@@ -223,8 +230,8 @@ function Rainee() {
                                 <div className='col-3 anays'>
                                     <div className='anays1'>
                                         <CircularProgressbar
-                                            value={87}
-                                            text={`${87}%`}
+                                            value={56}
+                                            text={`${56}%`}
                                             styles={buildStyles({
                                                 rotation: 0.25,
                                                 strokeLinecap: 'butt',
@@ -241,7 +248,7 @@ function Rainee() {
 
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     <div className="col-4 bg-dark ">9
                         <Logins />
 

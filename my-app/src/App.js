@@ -12,7 +12,7 @@ import Heading from './Rainee/Heading';
 
 function App() {
   return (
-    <div className="container" >
+    <div className=" bg-dark " >
      {/* <Dashboard1 /> */}
      {/* <Form /> */}
      {/* <Dashboar /> */}
