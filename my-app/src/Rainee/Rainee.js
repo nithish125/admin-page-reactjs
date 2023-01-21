@@ -250,7 +250,7 @@ function Rainee() {
                         </div>
                     </div>
                     <div className="col-4 bg-dark ">9
-                        <Logins />
+                        {/* <Logins /> */}
 
                     </div>
                 </div>

@@ -1,6 +1,18 @@
-import React from "react";
+// import Rfrom "react";
+import { useEffect ,useState} from 'react'
+
 import './Rainee.css'
 function Logins(){
+  const [data, setData] = useState([])
+
+    useEffect(() => {
+        fetch("http://localhost:5000/pack")
+          .then((res) => res.json())
+          .then((res1) => {
+            setData(res1)
+          })
+      }, [])
+      console.log(data)
     var avin = [{
         names: "kavin",
         mobile: "9345335073",
@@ -21,6 +33,7 @@ function Logins(){
 
 
     }]
+
 return(<div>
     <div className='innerlog'>
                             <div className='imgs'>
